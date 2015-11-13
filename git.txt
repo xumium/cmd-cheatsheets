@@ -11,7 +11,7 @@ Commiting:
 git commit -m <message>			- commits all changes in the staging area to the 
 project and lets you add a message directly.
 
-git commit -a				- commits al chnges of all tracked files without 
+git commit -a				- commits all changes of all tracked files without 
 staging.
 
 
