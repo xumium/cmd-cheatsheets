@@ -1,0 +1,26 @@
+Staging:
+
+git add <filename>			- adds a file to the repo.
+
+git add .				- adds all untracked files and changed to the 
+staging area
+
+
+Commiting:
+
+git commit -m <message>			- commits all changes in the staging area to the 
+project and lets you add a message directly.
+
+git commit -a				- commits al chnges of all tracked files without 
+staging.
+
+
+Reviewing:
+
+git status				- review current project status.
+
+git log					- logs all commits that were made to the branch.
+
+git checkout				- checks out a branch or version of the project.
+
+git diff <hash/branch> <hash/branch>	- diffs between 2 versions or branches.
