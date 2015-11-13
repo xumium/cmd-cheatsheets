@@ -24,3 +24,12 @@ git log					- logs all commits that were made to the branch.
 git checkout				- checks out a branch or version of the project.
 
 git diff <hash/branch> <hash/branch>	- diffs between 2 versions or branches.
+
+
+Branching:
+
+git branch <branch_name>		- adds a new branch to the project
+
+git checkout -b <branch_name>		- same as above but also switches to the new branch.
+
+git checkout <branch_name> <file_name> 	- copy file from one branch to the current branch.
