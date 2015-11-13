@@ -11,7 +11,7 @@ Commiting:
 git commit -m <message>			- commits all changes in the staging area to the 
 project and lets you add a message directly.
 
-git commit -a				- commits al chnges of all tracked files without 
+git commit -a				- commits all changes of all tracked files without 
 staging.
 
 
@@ -21,6 +21,24 @@ git status				- review current project status.
 
 git log					- logs all commits that were made to the branch.
 
+git branch				- lists all branches in current repo.
+
 git checkout				- checks out a branch or version of the project.
 
 git diff <hash/branch> <hash/branch>	- diffs between 2 versions or branches.
+
+
+Branching:
+
+git branch <branch_name>		- adds a new branch to the project
+
+git checkout -b <branch_name>		- same as above but also switches to the new branch.
+
+git branch -D <branch_name>		- deletes the named branch.
+
+
+Merging:
+
+git merge <branch_name>			- merges named branch to current branch.
+
+git checkout <branch_name> <file_name> 	- copy file from one branch to the current branch.
