@@ -21,6 +21,8 @@ git status				- review current project status.
 
 git log					- logs all commits that were made to the branch.
 
+git branch				- lists all branches in current repo.
+
 git checkout				- checks out a branch or version of the project.
 
 git diff <hash/branch> <hash/branch>	- diffs between 2 versions or branches.
