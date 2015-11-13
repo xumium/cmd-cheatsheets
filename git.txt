@@ -42,3 +42,8 @@ git push					- pushes the changes to remote
 git push <remote_name> <branch_name>		- pushes a new branch to remote
 git pull <remote_name> <branch_name>		- pull the specified branch from remote
 
+
+Tools:
+
+git-flow	- a tool to help manage projects
+
