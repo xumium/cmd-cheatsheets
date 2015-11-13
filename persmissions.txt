@@ -1,0 +1,37 @@
+chown - a command to change a file's owner and group.
+	Usage:	sudo chown <username>:<group> <path/to/filename>
+		sudo chown -R <username>:<group> <path/to/dir>
+
+chmod - a command to add or revoke permissions.
+	Usage:	(sudo) chmod <Literal / Octal Permissions> <path/to/filename>
+		(sudo) chmod -R <permissions> <path/to/dir>
+
+sudo !! - run last command as root.
+
+Literal Permissions:
+       user   group    open
+	u	g	o
+       rwx     rwx     rwx
+
+To add permissions:
+<group>+<permession>
+	(i.e. u+rw adds read and write at the user level.
+	 To add permission globally, simply omit the level signifier (u/g/o)).
+
+To remove permissions:
+<group>-<permissions>
+	same example as above only with the - sign.
+
+Octal Permissions:
+
+	7 rwx	3 -wx
+	6 rw-	2 -w-
+	5 r-x	1 --x
+	4 r--	0 ---
+
+To change permissions, simply type the octal number for each of the levels.
+i.e. 777 grants rwx to all of the permission levels.
+
+An easy way to remember this is to remember that 4 = r, 2 = w, and 1 = x.
+In order to give the right permissions simply add the octals of the permission.
+i.e. rwx = 4 + 2 + 1 = 7, r-x = 4 + 0 + 1 = 5, -wx = 0 + 2 + 1 = 3. 

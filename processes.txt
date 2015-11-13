@@ -1,0 +1,42 @@
+Listing processes:
+
+top 	- Console task manager.
+
+ps 	- Lists all processes for current user. Use with flag 'aux' to display all
+	  processes on the machine.
+		Usage: ps [aux]
+
+grep	- Searches for patterns. Use in conjuction with other commands to find a specific file
+	  or process.
+		Usage: grep "<query>".
+
+
+jobs 	- Lists all running jobs in current session.
+
+fg 	- brings the last job or the job number into the foreground.
+		Usage: fg [<job number>]
+
+| 	- Allows you to combine two processes. i.e. ps aux | grep top will output all the processes
+	  on the machine with top in one of their fields.
+		Usage: <command> | <command>
+
+& 	- Starts a job in a paused state.
+		Usage: <command> &
+
+Killing Processes:
+
+kill	- A command to send a signal to a process.
+		Usage: kill [-<signal>]  <pid>
+
+	  Signals:	TERM \ 14 - Defualt. A signal that terminates a process.
+
+			KILL \ 9 - A signal to kill the process (when not responding)
+
+			STOP - A signal to stop the process.
+
+Current Jobs:
+
+^Z - Pauses the current job and lets you resume to it.
+
+^C - Terminates the current job.
+

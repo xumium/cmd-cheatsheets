@@ -1,0 +1,17 @@
+mv - Move a file to a new location. Also used to rename a file.
+	Usage:	mv <path/to/filename> <path/to/move>
+
+cp - Copy a file. Directories can only be copied using the -R (Recursive) flag.
+	Usage:	cp <path/to/filename> <path/to/copy>
+		cp -R <path/to/dir> <path/to/copy>
+
+rm - Remove a file. Use with caution! Directories can be only removed using the -R flag.
+	Usage:	rm <path/to/filename>
+		rm -R <path/to/dir>
+
+mkdir - Creates a directory. To create multiple nested directories use the -P flag.
+	Usage:	mkdir <path/to/dir>
+		mkdir -P <path/to/dir/subdir>
+
+touch - Create a file.
+	Usage:	touch <path/to/filename> 

@@ -1,0 +1,40 @@
+sudo apt-get build-essential - Installs the essential build tools.
+
+tar	- extracts files from tarballs, useing the -xvf flags.
+	  x = Extract, v = Verbose, f = File.
+		Usage: tar -xvf <filename>.tar.gz
+
+make	- finds a makefile in the working dir and runs it.
+
+sudo make install - moves program to $PATH 
+
+
+Building from Source - Ubuntu:
+
+1. untar the tarball.
+
+2. cd to src dir.
+
+3. run './config'.
+
+4. run make
+
+5. run sudo make install.
+
+
+Unbilding from Source:
+
+1. cd to src dir
+
+2. sudo make uninstall
+
+3. sudo make clean
+
+4. cd ..
+
+5. rm src dir.
+
+
+APT Package Manager:
+
+apt-cache search <packagename>  - searches apt repos for a package.

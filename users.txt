@@ -1,0 +1,9 @@
+adduser	- Adds a user to the system.
+		Usage: sudo adduser <username>
+
+su	- Switch current user.
+		Usage: su <username>
+
+whoami	- Prints out current user.
+
+exit	- Logs out of current user or closes the console when no other users are logged in. 

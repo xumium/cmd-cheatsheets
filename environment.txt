@@ -1,0 +1,36 @@
+env	- Prints out the environment vars.
+
+which	- Prints the path to the command.
+		Usage: which <cmd>
+
+export	- Exports a var down to child processes.
+		Usage: export <VAR_NAME>=<var_val>
+
+Setting Vars: <VAR_NAME>=<var_val>
+
+Locating files:
+
+find	- Find a file based on name. Allows wildcards.
+		Usage: find <dir1> [<dir2> ...] -name "<filename>"
+
+grep	- Finds Regexps in files or streams.
+		Usage: grep <regexp> <filname> [<filename2> ...]
+		Options: -n Outputs the line number
+			 -i Ignores case
+			 -v Inverts match (lines that don't include)
+
+sort	- Sorts lines of stdin and sends it to stdout.
+
+Piping and Redirection:
+
+^D	- stdin END.
+
+<cmd> < <filename>	- redirect file into stdin.
+
+<cmd> > <filename>	- redirect stdout to file. Overrides file.
+
+<cmd> >> <filename>	- contcats stdout to file.
+
+<cmd> {n}> <filename>	- redirects std process n (i.e. std_err) to a file.
+
+<cmd> | <cmd>		- pipes stdout from one command to the other.
